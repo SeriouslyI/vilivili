@@ -1,0 +1,50 @@
+.up-info{
+	position: relative;
+	width: 100%;
+	max-width: 880px;
+	padding: 10px 10px;
+	border-bottom: 1px solid #dddd;
+}
+.up-avatar{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 50%;
+	display: inline-block;
+}
+.up-avatar img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.up-name{
+	position: absolute;
+	display: inline;
+	top: 10px;
+	padding: 0 10px;
+	color: #fb7299;
+	cursor: default;
+}
+.up-signature{
+	display: inline-block;
+	padding: 0 10px;
+	color: #505050;
+}
+.dontfl{
+	position: absolute;
+	right: 30px;
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	bottom:15px;
+}
+.dontfl a{
+	background-color: #dc3545;
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 4px;
+}

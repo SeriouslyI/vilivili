@@ -1,0 +1,83 @@
+
+.avatar{
+	padding-top: 20px;
+	position: relative;
+	width: 105px;
+	margin:0 auto;
+	overflow: hidden;
+
+}
+.first-change-lb{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	display: inline-block;
+}
+.first-change-lb img{
+	border: 2px solid #dddddd;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	
+}
+.first-change-lb img:hover{
+	background-color: rgba(0, 0, 0, .2);
+}
+.avatar span{
+	margin-left: 25px;
+}
+.el-form-item_content{
+	padding: 20px;
+	position: relative;
+	font-size: 14px;
+	overflow: hidden;
+}
+.security-right .qm{
+	height:100px;
+}
+
+.el-form-item_content .el-form-item_label{
+	
+}
+.el-form-item_content .el-input{
+	width: 225px;
+	position: absolute;
+	display: inline;
+	left: 150px;
+	color: #898989;
+}
+.el-form-item_content .el-input__inner{
+	padding-left: 10px;
+	border: 1px solid #bfcbd9;
+	border-radius: 4px;
+	height: 30px;
+	width: 225px;
+}
+.el-textarea_inner{
+	padding-left: 10px;
+	border: 1px solid #bfcbd9;
+	border-radius: 4px;
+	height: 90px;
+	width: 200%;
+}
+.qm .el-textarea_inner{
+	line-height: 30px;
+}
+.el-form-item_content .el-radio-button{
+	display: inline-block;
+	height: 25px;
+	padding: 0 10px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	background-color: #f4f4f4;
+	cursor: pointer;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 20px;
+ }
+ .el-form-item_content .is-active{
+ 	border: 0;
+ 	background-color: #22a1d6;
+ 	color: #fff;
+ }

@@ -1,0 +1,84 @@
+*{
+	font-size: 14px;
+}
+.top{
+	background-color: #fff;
+}
+.security-left{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 890px;
+	border: 1px solid #dddd;
+	background-color: #fff;
+	overflow: hidden;
+}
+.security-left .security-title{
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+	width: 100%;
+	height: 51px;
+	color: #99a2aa;
+	cursor: default;
+	border-bottom: 1px solid #e1e2e5;
+	display: block;
+}
+.security-left .security-nav-name{
+	
+}
+.security-ul{
+	position: relative;
+	width: 100%;	
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.security-ul .security-list{
+	height: 48px;
+	width: 100%;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+}
+
+.over:hover{
+	background-color: #dddd;
+}
+.on{
+	color: #fff;
+	background-color: #00a1d7;
+}
+.security-right{
+	width: 80%;
+	max-width: 830px;
+	height: 890px;
+	position: relative;
+	border: 1px	solid #dddd;
+	background-color: #fff;
+	float: left;
+}
+.security-right .security-right-title{
+	width: 100%;
+	height: 51px;
+	line-height: 51px;
+	border-bottom:  1px solid #dddd;
+}
+.security-right-title-text{
+	color: #00a1d7;
+	margin-left: 20px;
+
+}
+ .btn_save{
+ 	width: 110px;
+ 	height: 36px;
+ 	border: 0px solid #dddddd;
+ 	background-color: #22a1d6;
+ 	border-radius: 4px;
+ 	color: #fff;
+ 	margin: 20px 40%;
+ 	cursor: pointer;
+ }
+ .inf-form{
+	padding: 40px 20px;
+ }

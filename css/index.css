@@ -1,0 +1,325 @@
+.center{
+	float: left;
+	width: 70%;
+	max-width: 1344px;
+	position: relative;
+	margin: 0px 15%;
+	margin-top: 150px;
+	display: inline-block;
+	overflow: hidden;
+}
+.center .nav{
+	width: 100%;
+	height: 32px;
+	margin-left: -38px;
+}
+.center .nav li{
+	float: left;
+	width: 25%;
+	text-align:center;
+	border-bottom: 1px solid #e5e9ef;
+}
+
+.center .nav li a{
+	font-size: 20px;
+	
+}
+.onpage{
+	color: hotpink;
+}
+.slider-video{
+	height: 340px;
+}
+.slider {
+    height: 340px;
+    width: 50%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.slider li {
+  	position: absolute;
+  	left: 0;
+  	width: 100%;
+  	display: none;
+}
+.slider img{
+	width: 100%;
+	height: 340px;
+	border-radius: 2%;
+}
+.arrow {
+	display: none;
+}
+
+.slider .arrow {
+  	display: block;
+  	cursor:pointer;
+}
+
+.arrow-left,
+.arrow-right {
+  	font-family: "SimSun", "宋体";
+  	width: 30px;
+  	height: 60px;
+  	background-color: rgba(0, 0, 0, 0.1);
+  	position: absolute;
+  	top: 50%;
+  	margin-top: -30px;
+  	cursor: pointer;
+  	text-align: center;
+  	line-height: 60px;
+  	color: #fff;
+  	font-weight: 700;
+  	font-size: 30px;
+  	user-select:none;
+}
+
+.arrow-left,
+.arrow-right{
+  	background-color: rgba(0, 0, 0, .5);
+  	cursor:pointer;
+}
+
+.arrow-left {
+  	left: 0;
+}
+
+.arrow-right {
+  	right: 0;
+}
+.center .video-card-box{
+	width: 45%;
+	max-width: 550px;
+	height: 350px;
+	margin-top: 7px;
+	overflow: hidden;
+	float: left;
+	padding: 0 15px;
+	display: block;
+}
+
+.groom-module{
+	position: relative;
+	width: 160px;
+	height: 100px;
+	border-radius: 6px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	margin: 10px 10px;
+}
+.groom-module .card-mark{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50px;
+	color: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+
+}
+.card-mark .title{
+	height: 35px;
+	overflow: hidden;
+}
+.card_live_module p{
+	height: 35px;
+	overflow: hidden;
+}
+.dybox .card-mark .title{
+	height: 38px;
+	overflow: hidden;
+}
+.groom-module img{
+	width: 160px;
+	height: 100px;
+}
+.groom-module:hover .card-mark{
+	top: 0px;
+	height: 100px;
+	background: rgba(0,0,0,.7);
+	overflow: visible;
+}
+.center .headline_clearfix{
+	position: relative;
+	width:100%;
+	float: left;
+	display: block;
+	padding: 30px 0;
+}
+.headline_clearfix .name{
+	font-size: 24px;
+}
+.headline_clearfix .link_more{
+	font-size: 15px;
+	border: 1px solid #ccd0d7;
+	border-radius: 4px;
+	float: right;
+	width: 52px;
+	height: 22px;
+	color: #555;
+	text-align: center;
+	margin-right: 120px;
+}
+.headline_clearfix .link_more:hover{
+	background-color: #ccd0d7;
+}
+.center .box_clearfix{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	float: left;
+}
+.box_clearfix .card_live_module{
+	width: 180px;
+	height: 160px;
+	float: left;
+	position: relative;
+}
+.box_clearfix .card_live_module:hover .cover-preview-module{
+	background-color: rgba(0,0,0,.7);
+}
+.box_clearfix .card_live_module:hover .dur{
+	display: block;
+}
+.box_clearfix .card_live_module .pic .lazy-img img{
+	width: 160px;
+	height: 100px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.box_clearfix .card_live_module .t{
+	width: 159px;
+	margin-top: 0px;
+}
+.cover-preview-module{
+	position: absolute;
+	top: 0;
+	width: 159px;
+	height: 100px;
+	border-radius: 4px;
+}
+.cover-preview-module .dur{
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	display: none;
+}
+.nav-list{
+	position: fixed;
+	width: 48px;
+	left: 1600px;
+	top: 250px;
+	background-color: #f6f9fa;
+	border:1px solid #e5e9ef;
+	overflow: hidden;
+	border-radius: 4px;
+	font-size: 14px;
+	float: left;
+	
+}
+.nav-list .item_sortable{
+	width: 48px;
+	height: 32px;
+	text-align: center;
+	user-select:none;
+	cursor:pointer;
+	line-height: 32px;
+
+}
+.nav-list ul{
+	border: 0;
+	margin:0;
+	padding: 0;
+}
+.nav-list .item_sortable:hover{
+	background-color: #6fc6ff;
+	
+}
+.nav-list .item_sortable:hover a{
+	color: #fff;
+}
+.no{
+	float: left;
+	height: 600px;
+	width: 100%;
+}
+.dybox{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+	width: 97%;
+	height: 300px;
+	overflow: hidden;
+}
+.dybox .dy_in_box{
+	position: absolute;
+	width: 3800px;
+	height: 300px;
+	display: block;
+	overflow: hidden;
+}
+.dybox .dy_in_box .groom-module{
+	width: 200px;
+	height: 300px;
+	display: inline;
+	padding: 0;
+	padding-right: 20px;
+	margin: 0;
+}
+.dybox .dy_in_box .lazy-img img{
+	width: 200px;
+	height: 300px;
+	border-radius: 4px;
+}
+.dybox .dy_in_box .groom-module .card-mark{
+	top: 240px;
+	margin-right: 20px;
+	width: 200px;
+}
+.dybox .dy_in_box .groom-module .card-mark p{
+	padding-left: 10px;
+}
+.dybox .dy_in_box .groom-module:hover .card-mark{
+	top:200px;
+
+}
+.slide-btnprev{
+	cursor: pointer;
+	position: absolute;
+	width: 90px;
+	left: 0;
+	height: 300px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.slide-btnnext{
+	cursor: pointer;
+	position: absolute;
+	width: 90px;
+	right: 0;
+	height: 300px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.slide-btnprev img:first-child{
+	position: absolute;
+	left: 0;
+	top: 42%;
+}
+.slide-btnprev img:last-child{
+	position: absolute;
+	left: 0;
+}
+.slide-btnnext img:first-child{
+	position: absolute;
+	right: 0;
+	top: 42%;
+}
+.slide-btnnext img:last-child{
+	position: absolute;
+	right: 0;
+}
+
